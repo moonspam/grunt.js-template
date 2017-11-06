@@ -1,0 +1,20 @@
+{
+  "default": [],
+  "dev": [
+    "connect:dev",
+    "watch"
+  ],
+  "live": [
+    "connect:live"
+  ],
+  "build": [
+    "clean",
+    "less:dist",
+    "copy",
+    "uglify",
+    "concat_css",
+    "cssmin",
+    "imagemin",
+    "string-replace"
+  ]
+}
