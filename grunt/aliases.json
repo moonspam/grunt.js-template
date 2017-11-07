@@ -8,6 +8,7 @@
     "connect:live"
   ],
   "build": [
+    "jshint",
     "clean",
     "less:dist",
     "copy",
