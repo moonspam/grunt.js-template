@@ -6,6 +6,10 @@ module.exports = {
       nospawn: true
     }
   },
+  jshint: {
+    files: ['src/js/**/*.js'],
+    tasks: ['jshint']
+  },
   livereload: {
     files: ['src/**/*'],
     options: {
