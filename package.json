@@ -1,7 +1,7 @@
 {
-  "name": "wegl",
+  "name": "grunt-template",
   "version": "1.0.0",
-  "description": "WEGL Offical Web Site HTML",
+  "description": "Using grunt.js for html markup",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,7 @@
     "grunt": "^1.0.1",
     "grunt-concat-css": "^0.3.2",
     "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.2.0",

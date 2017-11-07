@@ -13,8 +13,8 @@ module.exports = {
           replacement: '  <link rel="stylesheet" href="css/style.min.css">'
         },
         {
-          pattern: /js\/ui.js/g,
-          replacement: 'js/ui.min.js'
+          pattern: /(?:[ |\t]*<!--\(\s?compress-js-start\s?\)-->)\n?([\s\S]+?)(?:[ |\t]*<!--\(\s?compress-js-end\s?\)-->)/g,
+          replacement: '  <script src="js/ui.min.js"></script>'
         }
       ]
     }

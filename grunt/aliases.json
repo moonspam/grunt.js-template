@@ -5,12 +5,13 @@
     "watch"
   ],
   "live": [
-    "connect:live"
+    "connect:live:keepalive"
   ],
   "build": [
-    "jshint",
     "clean",
-    "less:dist",
+    "jshint",
+    "concat",
+    "less",
     "copy",
     "uglify",
     "concat_css",
